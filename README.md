@@ -140,4 +140,4 @@ The size of each register is 12 bits.
 
 ## Author
 
-* **Sagi Menahem (A.K.A sagiia).**
+* **Sagi Menahem.**
