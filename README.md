@@ -26,8 +26,7 @@ To build the program you can use makefile by make command:
 ```
 >   make
 ```
-The assembly files need to be with an **`.as` extension**.
-After compile, you can send the file names to the program as arguments (without the file extensions).
+Assembly files need to have the **`.as`** extension. After compilation, you can send the file names to the program as arguments (without the file extensions).
 
 To compile the files first.as, second.as, x.as you need to run:
 ```
@@ -38,15 +37,13 @@ The output files with the same filenames and the following extensions:
 - `.ent` - Entries file
 - `.ext` - Externals file
 
-An example of input and output files can be found under `examples` folder.
+Examples of input and output files can be found under the [Tests folder](https://github.com/sagi-menahem/Assembler-in-C/tree/master/Tests).
 
 ## Macros
 
-macros are sections of code that include statements. In the program you can define a macro and use it in different places in the program. The use of a macro from a certain place in the program will cause the macro to be allocated to that place.
-Before the two passes, the assembler goes through all the code and interprets the macros.
-The program after the macros are retired is the program that the assembler translates.
+Macros are sections of code that include statements. In the program, you can define a macro and use it in different places. The use of a macro from a certain place in the program will cause the macro's content to be placed at that location. Before the two passes, the assembler goes through all the code and interprets the macros. The program after the macros are expanded is the program that the assembler translates.
 
-Setting up a macro is done as follows (in the example the name of the macro is m1):
+Setting up a macro is done as follows (in the example the name of the macro is 'm1'):
 ```
 mcro m1
    inc r2
