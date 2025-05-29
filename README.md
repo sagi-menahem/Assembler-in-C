@@ -2,7 +2,7 @@
 
 This project is **_two-pass assembler_** model with the implementation of macros.
 
-The full assignment (in Hebrew) is in the "Final project" file.
+The full assignment (in Hebrew) is in the [Final project.pdf](Final%20project.pdf) file.
 
 It received a grade of 100.
 
