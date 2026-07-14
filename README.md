@@ -1,6 +1,6 @@
 # Assembler Project - C Course 20465
 
-This project is **_two-pass assembler_** model with the implementation of macros.
+A two-pass assembler with macro support, written from scratch in C — a low-level systems project demonstrating manual memory management, file parsing, and instruction encoding, built for the Open University's C course (20465).
 
 The full assignment (in Hebrew) is in the [Final project.pdf](Final%20project.pdf) file.
 
@@ -15,7 +15,6 @@ It received a grade of 100.
 - [Commands](#commands)
 - [Directives](#directives)
 - [Registers](#registers)
-- [Author](#author)
 
 ## Getting Started
 
@@ -135,6 +134,12 @@ A **_directive_** line of the following structure:
 There are 8 CPU registers: r0, r1, r2, r3, r4, r5, r6, r7.<br />
 The size of each register is 12 bits.  
 
-## Author
+<div align="center">
 
-* **Sagi Menahem.**
+**Built by Sagi Menahem**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sagi-menahem)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagi-menahem/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D2440?style=flat-square&logo=googlechrome&logoColor=white)](https://sagimenahem.tech)
+
+</div>
