@@ -118,11 +118,11 @@ A **_directive_** line of the following structure:
       E.g: `.data 4, –31, +42, 99`.
 
       ### `.string`
-      Receives a string as an operand and stores it in the data image. (stores char encoded ny their *ASCII* values). 
+      Receives a string as an operand and stores it in the data image. (stores each char encoded by its *ASCII* value). 
       E.g.: `STR: .string “abcdefghi”`
    
       ### `.entry`
-      Received name of a *label* to the *symbol table*, for recognize later in other assembly files (and they would be able to use it).
+      Receives the name of a *label* and adds it to the *symbol table*, so it can be recognized later by other assembly files (which are then able to use it).
       E.g.: `.entry HELLO`
 
       ### `.extern`
